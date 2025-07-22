@@ -54,9 +54,10 @@
 
     <h2>Our Privacy Promise</h2>
     <ul>
-        <li>Your voice recordings never leave your device</li>
+        <li>Your voice recordings are stored only on your device</li>
+        <li>Transcription happens entirely on-device using Whisper Tiny</li>
         <li>We don't collect, store, or have access to your journal entries</li>
-        <li>All AI processing happens with privacy-first partners</li>
+        <li>AI summaries are optional and processed with privacy in mind</li>
     </ul>
 
     <h2>How Your Data Flows</h2>
@@ -70,52 +71,66 @@
 
     <h3>2. Transcription</h3>
     <ul>
-        <li>Processed entirely on your device (when available)</li>
-        <li>For cloud transcription: audio is sent securely to our AI partner</li>
-        <li>No audio sent to external servers is retained after processing</li>
-        <li>Transcriptions return to your device and are stored locally</li>
+        <li>Processed entirely on your device using OpenAI's Whisper Tiny model</li>
+        <li>No audio data ever leaves your device for transcription</li>
+        <li>Transcriptions are stored locally on your device</li>
+        <li>Works completely offline</li>
     </ul>
 
-    <h3>3. AI Summaries</h3>
+    <h3>3. AI Summaries & Insights (Optional Premium Features)</h3>
     <ul>
-        <li>Generated from your transcriptions</li>
-        <li>Processed through secure AI services</li>
-        <li>No personal identifiers are included</li>
-        <li>Results stored only on your device</li>
+        <li>When you choose to summarize an entry, only the text transcript is sent to our AI service</li>
+        <li>We use Claude AI models (Sonnet for premium users, Haiku for free users)</li>
+        <li>Processed through our secure API relay - we never store your content</li>
+        <li>No personal identifiers are included with requests</li>
+        <li>AI-generated summaries return to your device and are stored locally</li>
     </ul>
 
     <h2>What We Don't Collect</h2>
     <ul>
         <li>Personal information</li>
         <li>Voice recordings</li>
-        <li>Journal content</li>
+        <li>Journal content (unless you explicitly use AI features)</li>
         <li>Location data</li>
         <li>Usage analytics</li>
+        <li>Device identifiers</li>
     </ul>
 
     <h2>Third-Party Services</h2>
-    <p><strong>AI Processing:</strong> We use enterprise-grade AI services through a secure self-hosted relay for transcription and summarization. These services process your data securely and don't retain it.</p>
+    <p><strong>AI Processing (Optional):</strong> When you use summary or insights features, we send your transcribed text to Anthropic's Claude AI (Sonnet or Haiku models) through our secure relay. These requests are:</p>
+    <ul>
+        <li>Sent over encrypted connections</li>
+        <li>Not stored or logged by us</li>
+        <li>Not associated with any personal identifiers</li>
+        <li>Processed according to Anthropic's enterprise privacy standards</li>
+    </ul>
+    
     <p><strong>Subscription Management:</strong> RevenueCat handles premium subscriptions and processes payment information. They do not have access to your journal content.</p>
 
     <h2>Your Rights</h2>
     <ul>
-        <li><strong>Export:</strong> Export all your entries anytime</li>
+        <li><strong>Full Control:</strong> All processing is initiated by you</li>
+        <li><strong>Export:</strong> Export all your entries anytime as text files</li>
         <li><strong>Delete:</strong> Remove any or all entries instantly</li>
-        <li><strong>Control:</strong> Choose when to use AI features</li>
+        <li><strong>Offline Use:</strong> Core features work without internet</li>
     </ul>
 
     <h2>Data Security</h2>
     <ul>
-        <li>All data encrypted on your device</li>
-        <li>Secure connections for AI processing</li>
-        <li>No cloud backup of your personal content</li>
+        <li>All data stored in iOS's secure container on your device</li>
+        <li>Audio files and transcripts encrypted by iOS</li>
+        <li>Optional AI features use HTTPS encryption</li>
+        <li>No cloud backup or sync of your personal content</li>
     </ul>
 
     <h2>Data Retention</h2>
-    <p>Your recordings and journal entries remain on your device until you choose to delete them. We have no access to this data and cannot retrieve it if you delete the app.</p>
+    <p>Your recordings and journal entries remain on your device until you choose to delete them. We have no access to this data and cannot retrieve it if you delete the app. When you use AI features, the text is processed immediately and not retained by our systems.</p>
+
+    <h2>Children's Privacy</h2>
+    <p>Solara Voice Journal is not intended for children under 13. We do not knowingly collect information from children under 13.</p>
 
     <h2>Changes to Privacy Policy</h2>
-    <p>We'll notify you of any significant changes through the app.</p>
+    <p>We'll notify you of any significant changes through the app. Continued use of the app after changes indicates acceptance of the updated policy.</p>
 
     <h2>Contact Us</h2>
     <p>Questions about privacy? Email: solarajournalapp@gmail.com</p>
